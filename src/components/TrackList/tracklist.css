@@ -1,0 +1,69 @@
+.tracklist-container {
+  overflow: scroll;
+  background-color: #fff;
+}
+
+.track-image {
+  width: 100%;
+}
+
+.tracklist-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.song-item {
+  height: 50px;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+}
+
+.song-item:hover {
+  cursor: pointer;
+  background: #ccc;
+}
+
+.song-index {
+  font-size: 25px;
+  color: #e31e25;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.song-title {
+  font-size: 25px;
+  color: black;
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.song-duration {
+  color: #babdd9;
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.track-title {
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  width: 130px;
+  font-size: 40px;
+  color: white;
+}
+
+.track-counter {
+  position: absolute;
+  color: white;
+  top: 350px;
+  font-size: 30px;
+  left: 50px;
+}

@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "comma-dangle": ["off"],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "eol-last": ["off"],
+    "quote-props": ["off"],
+    "dot-notation": ["off"]
+  },
+  "globals": {
+    "describe": false,
+    "it": false,
+    "before": false
+  },
+  "settings": {
+    "import/core-modules": ['chai', 'mocha']
+  }
+}

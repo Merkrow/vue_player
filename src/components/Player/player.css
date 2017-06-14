@@ -1,0 +1,115 @@
+.player-container {
+  background: #f0f4ff;
+  height: 55px;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.next-track {
+  position: absolute;
+  left: 60px;
+  border: none;
+  height: 25px;
+  width: 25px;
+  top: 50%;
+  transform: translate(0, -60%);
+  cursor: pointer;
+  background-image: url('../../../pictures/nextTrack.png');
+  background-size: cover;
+}
+
+.player-track-title {
+  position: absolute;
+  left: 90px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.player-track-progress {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.player-mute {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  height: 20px;
+  width: 20px;
+  border: none;
+  transform: translate(0, -60%);
+  cursor: pointer;
+  background: url(../../../pictures/volume.png) no-repeat;
+  background-size: contain;
+}
+
+.player-nav-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.toggle-play-button {
+  border-radius: 50%;
+  border: 1px solid #b8b8b9;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.toggle-play-button:hover {
+  cursor: pointer;
+}
+
+.pause-button {
+  background: url(../../../pictures/stop.png) no-repeat;
+  background-position: center;
+  background-size: 30%;
+}
+
+.play-button {
+  background: url(../../../pictures/play.jpg) no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+
+.player-seek-bar {
+  height: 3px;
+  width: 100%;
+  background: #d8dbe5;
+  position: absolute;
+  bottom: 0;
+}
+
+.progress-bar {
+  background: #e31e25;
+  position: absolute;
+  bottom:0;
+  display: inline-block;
+  height: 3px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button {
+  background-color: #f0f4ff;
+}
+
+.player-seek-bar:hover {
+  height: 6px;
+}
+
+.player-seek-bar:hover .progress-bar {
+  height: 6px;
+}

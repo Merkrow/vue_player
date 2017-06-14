@@ -1,0 +1,28 @@
+.navigation {
+  position: absolute;
+  width: 233px;
+  top: 40px;
+  right: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border-bottom: 2px solid white;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+  color: white;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-item:hover {
+  border-bottom: 3px solid white;
+  cursor: pointer;
+}
